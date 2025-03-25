@@ -1,0 +1,23 @@
+{
+  "name": "automation-bootcamp-the-complete-cypress-v13",
+  "version": "1.0.0",
+  "description": "Links:   Training on [Udemy](https://www.udemy.com/course/cypress-io-master-class/?couponCode=ST22MT240325G1)   Cypress on [Gitter](https://app.gitter.im/#/room/#cypress-io_cypress:gitter.im)   Cypress [Homepage](https://www.cypress.io/app)   Cypress on [Github](https://github.com/cypress-io)   Use of Cypress on [npmtrends](https://npmtrends.com/cypress)",
+  "homepage": "https://gitlab.com/ronaldvanderlouw/automation-bootcamp-the-complete-cypress-v13#readme",
+  "bugs": {
+    "url": "https://gitlab.com/ronaldvanderlouw/automation-bootcamp-the-complete-cypress-v13/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ronaldvanderlouw/automation-bootcamp-the-complete-cypress-v13.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^14.2.0"
+  }
+}
