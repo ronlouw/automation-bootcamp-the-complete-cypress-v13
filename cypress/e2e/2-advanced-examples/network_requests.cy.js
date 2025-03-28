@@ -9,7 +9,8 @@ context('Network Requests', () => {
 
   it('cy.request() - make an XHR request', () => {
     // https://on.cypress.io/request
-    cy.request('https://jsonplaceholder.cypress.io/comments')
+   // cy.request('https://jsonplaceholder.cypress.io/comments')
+    cy.api('https://jsonplaceholder.cypress.io/comments')
       .should((response) => {
         expect(response.status).to.eq(200)
         // the server sometimes gets an extra comment posted from another machine
@@ -52,7 +53,7 @@ context('Network Requests', () => {
 
   it('cy.request() - pass result to the second request', () => {
     // first, let's find out the userId of the first user we have
-    cy.request('https://jsonplaceholder.cypress.io/users?_limit=1')
+    cy.api('https://jsonplaceholder.cypress.io/users?_limit=1')
       .its('body') // yields the response object
       .its('0') // yields the first element of the returned list
       // the above two commands its('body').its('0')
