@@ -1,0 +1,17 @@
+./node_modules/.bin/cypress run
+
+https://docs.cypress.io/guides/guides/command-line.html
+./node_modules/.bin/cypress run --headed
+
+https://docs.cypress.io/guides/guides/command-line.html#Installation
+Default electron : 
+./node_modules/.bin/cypress run
+Chrome browser:
+./node_modules/.bin/cypress run --browser chrome
+Chrome browser with UI: 
+./node_modules/.bin/cypress run --browser chrome --headed
+
+Individual specfile  :
+./node_modules/.bin/cypress run --spec cypress/integration/webdriver-uni/contact-us.js
+Complete folder alls specs in that folder: 
+./node_modules/.bin/cypress run --spec cypress/integration/webdriver-uni/*
