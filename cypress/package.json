@@ -10,10 +10,10 @@
     "triggerAllTests-dashboard": "npx cypress run --record --key 3025d595-10bc-4aad-91ed-5802e5896b45",
     "triggerAllTests-webdriveruni": "npx cypress run --spec cypress/e2e/webdriver-uni/*"
   },
-  "author": "",
+  "author": "Gianni Bruno",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^14.2.0",
+    "cypress": "^10.8.0",
     "cypress-xpath": "^2.0.1"
   }
 }
