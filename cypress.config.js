@@ -31,6 +31,10 @@ module.exports = defineConfig({
     experimentalSessionAndOrigin: true,
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 120000,  // overall setting (vy.visit())
+    retries:{
+      runMode: 0,
+      openMode: 0
+    },
     env:{
       first_name: "Sarah", // environment variable to use in tests
       webdriveruni_homepage: "http://www.webdriveruniversity.com"
