@@ -34,6 +34,6 @@ Cypress can be started by:
 
  Push to Gitlab: `git push -u origin main`
  Push to Github: `git push -u github main`
- See also : .git/config
+ See also : `.git/config`
  
  Both: `gp` 
