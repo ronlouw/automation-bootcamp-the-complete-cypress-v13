@@ -28,7 +28,8 @@ module.exports = defineConfig({
     excludeSpecPattern: "cypress/e2e/other/*.js", // exclude files from cypress/e2e/other ( folder isn't shown in App anymore)
     baseUrl: "http://www.webdriveruniversity.com/",
     chromeWebSecurity: false,
-    experimentalSessionAndOrigin: true,
+    // videoUploadOnPasses: false, // removed in version 13.0.0
+    // experimentalSessionAndOrigin: true, // removed in version 12.0.0
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 120000,  // overall setting (vy.visit())
     retries:{
