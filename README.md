@@ -27,3 +27,10 @@ Cypress is added as a module and dev dependency in package.json
 Cypress can be started by:  
 - ```./node_modules/.bin/cypress open``` or  
 - ```npx cypress open```
+
+# Git
+ - git remote add github <GitHub repository URL>
+ - git remote add gitlab <GitLab repository URL> (origin) 
+
+ Push to Gitlab: 
+ Push to Github: `git push -u github main   `
