@@ -32,5 +32,6 @@ Cypress can be started by:
  - git remote add github <GitHub repository URL>
  - git remote add gitlab <GitLab repository URL> (origin) 
 
- Push to Gitlab: 
- Push to Github: `git push -u github main   `
+ Push to Gitlab: `git push -u origin main`
+ Push to Github: `git push -u github main`
+ Both: `gp` 
