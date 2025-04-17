@@ -15,7 +15,6 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-import 'cypress-plugin-api'
 require('cypress-xpath');
 
 // Hide fetch/XHR requests from command log
